@@ -5,3 +5,4 @@ git pull
 
 cd ~/defining-pi
 git pull
+bundle
