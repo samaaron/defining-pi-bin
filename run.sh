@@ -2,5 +2,5 @@
 
 killall ruby
 ruby ~/defining-pi/run.rb&
-sleep 8
+sleep 10
 xdg-open http://localhost:4567
