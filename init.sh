@@ -17,3 +17,5 @@ git clone https://github.com/samaaron/defining-pi-bin.git defining-pi
 chmod u+x ~/bin/defining-pi/*.sh
 
 sudo gem install bundler
+
+~/bin/defining-pi/update.sh
