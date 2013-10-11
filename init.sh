@@ -1,12 +1,14 @@
 #!/bin/bash
 
 sudo apt-get update
-sudo apt-get -y install supercollider ruby1.9.1 ruby1.9.1-dev libqscintilla2-8 git libqscintilla2-dev libqt4-dev
+#sudo apt-get -y install supercollider ruby1.9.1 ruby1.9.1-dev libqscintilla2-8 git libqscintilla2-dev libqt4-dev
 
-mkdir ~/bin
+sudo apt-get -y install ruby-dev
+
+mkdir -p ~/bin
 mkdir -p ~/defining-pi
 touch ~/defining-pi/name.txt
-mkdir ~/code
+mkdir -p ~/code
 
 rm -rf ~/defining-pi
 cd ~
